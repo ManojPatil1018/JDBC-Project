@@ -8,7 +8,7 @@ public class DeleteStudent {
 	public static void main(String[] args) {
 		
 		Student student = new Student();
-		student.setId(3);
+		student.setId(6);
 		 
 		StudentDao studentdao = new StudentDao();
 		 studentdao.deleteStudent(student);
